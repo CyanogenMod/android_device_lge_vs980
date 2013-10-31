@@ -20,4 +20,6 @@
     <!-- Flag indicating if the phone is a world phone-->
     <bool name="world_phone">true</bool>
 
+    <!-- LTE/CDMA network mode to use for toggleLTE(true). -->
+    <integer name="toggleLTE_lte_cdma_nt_mode">10</integer>
 </resources>
