@@ -28,7 +28,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
 	ro.ril.force_eri_from_xml=true \
 	ro.telephony.get_imsi_from_sim=true \
-	ril.subscription.types=NV,RUIM
+	ril.subscription.types=NV,RUIM \
+	ro.cdma.subscribe_on_ruim_ready=true \
+	ro.ril.svdo=true
 
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
