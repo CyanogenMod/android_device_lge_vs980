@@ -20,18 +20,7 @@ $(call inherit-product, device/lge/g2-common/g2.mk)
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_PROPERTY_OVERRIDES += \
-	telephony.lteOnCdmaDevice=1 \
-	ro.telephony.default_network=10 \
-	ro.cdma.home.operator.numeric=311480 \
-	ro.cdma.home.operator.alpha=Verizon \
-	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
-	ro.ril.force_eri_from_xml=true \
-	ro.telephony.get_imsi_from_sim=true \
-	ril.subscription.types=NV,RUIM \
-	ro.cdma.subscribe_on_ruim_ready=true \
-	ro.ril.svdo=true
-
+# CDMA permissions
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
 	frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml

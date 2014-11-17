@@ -1,0 +1,17 @@
+#
+# System.prop for VS980 (Verizon LG G2)
+#
+
+# RIL
+telephony.lteOnCdmaDevice=1
+ril.subscription.types=NV,RUIM
+ro.telephony.default_cdma_sub=0
+ro.telephony.default_network=10
+ro.cdma.home.operator.numeric=311480
+ro.cdma.home.operator.alpha=Verizon
+ro.cdma.subscribe_on_ruim_ready=true
+ro.ril.svdo=true
+DEVICE_PROVISIONED=1
+ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
+ro.ril.force_eri_from_xml=true
+ro.telephony.get_imsi_from_sim=true
