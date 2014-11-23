@@ -21,4 +21,21 @@
     <!-- Show APN Settings for some CDMA carriers -->
     <bool name="config_show_apn_setting_cdma">true</bool>
 
+    <!-- Flag indicating whether the Phone app should ignore
+        EVENT_SIM_NETWORK_LOCKED events from the Sim.  If true, this will
+        prevent the IccNetworkDepersonalizationPanel from being shown,
+        and effectively disable the "Sim network lock" feature. -->
+    <bool name="ignore_perso_locked_events">true</bool>
+
+    <!-- Determine whether calls to mute the microphone in PhoneUtils
+         are routed through the android.media.AudioManager class (true) or through
+         the com.android.internal.telephony.Phone interface (false). -->
+    <bool name="send_mic_mute_to_AudioManager">true</bool>
+
+    <!-- This device implements a noise suppression device for in call audio-->
+    <bool name="has_in_call_noise_suppression">true</bool>
+
+    <!-- Show enabled lte option for lte device -->
+    <bool name="config_enabled_lte" translatable="false">true</bool>
+
 </resources>
