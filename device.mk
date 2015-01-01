@@ -25,7 +25,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=10 \
 	ro.cdma.home.operator.numeric=311480 \
 	ro.cdma.home.operator.alpha=Verizon \
-	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
+	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
+	ro.ril.force_eri_from_xml=true
 
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
