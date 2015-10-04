@@ -4,8 +4,6 @@
 
 # RIL
 ro.telephony.get_imsi_from_sim=true
-rild.libpath=/vendor/lib/libril-qc-qmi-1.so
-rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
 persist.rild.nitz_long_ons_1=
