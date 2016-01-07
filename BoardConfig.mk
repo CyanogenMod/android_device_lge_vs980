@@ -23,4 +23,4 @@ TARGET_OTA_ASSERT_DEVICE := vs980,g2,galbi
 G2_DTS_TARGET := msm8974-g2-vzw
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/lge/vs980/ril/
+BOARD_RIL_CLASS += ../../../device/lge/vs980/ril/
